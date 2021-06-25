@@ -20,10 +20,10 @@ import sys
 import logging
 import time
 import platform
-from urllib.parse import urlparse
-from urllib.parse import quote as urlquote
-from urllib.parse import urlencode
-from urllib.error import HTTPError, URLError
+from urllib import urlparse
+from urllib import quote as urlquote
+from urllib import urlencode
+from urllib import HTTPError, URLError
 from urllib.request import urlopen
 from urllib.request import Request
 from urllib.request import HTTPRedirectHandler
